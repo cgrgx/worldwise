@@ -117,10 +117,10 @@ function CitiesProvider({ children }) {
   return (
     <CitiesContext.Provider
       value={{
+        error,
         cities,
         isLoading,
         currentCity,
-        error,
         getCity,
         createCity,
         deleteCity,
